@@ -22,6 +22,8 @@ Testing the API in the built-in /explorer UI
 
 This project fulfills the Quiz 14 requirement to use any automatic API generator and push the generated code to a GitHub repository.
 
+
+
 🛠️ Tools Used
 
 LoopBack 4 CLI — auto-generates APIs
@@ -31,6 +33,8 @@ Node.js + npm — runtime and package manager
 TypeScript — LoopBack’s default language
 
 Swagger UI Explorer — auto-generated documentation for API testing
+
+
 
 📦 Project Structure (Auto-Generated)
 
@@ -54,7 +58,9 @@ author (required string)
 
 year (optional number)
 
-🔧 Steps I Followed (Assignment Requirements)
+
+
+🔧 Steps I Followed 
 
 1️⃣ Install LoopBack CLI
 npm install -g @loopback/cli
@@ -93,6 +99,8 @@ Automatically generated all REST endpoints for the Book model.
 npm install
 npm start
 
+
+
 🌐 How to Run This Project
 
 Clone the repository:
@@ -114,6 +122,8 @@ npm start
 Then open the API Explorer in your browser:
 
 http://localhost:3000/explorer
+
+
 
 📸 Screenshots
 API Explorer – Auto-Generated Endpoints
