@@ -96,7 +96,7 @@ npm start
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/quiz14-loopback-api.git
+git clone https://github.com/Bnguyen8091/quiz14-loopback-api.git
 cd quiz14-loopback-api
 
 
