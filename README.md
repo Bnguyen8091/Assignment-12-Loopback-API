@@ -142,9 +142,9 @@ http://localhost:3000/explorer
 
 Add screenshots like this:
 
-```md
+
 ![API Explorer](screenshots/explorer.png)
-```
+
 
 ---
 
