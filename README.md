@@ -1,6 +1,6 @@
 ---
 
-# 📘 Assignment 12 – Auto-Generated API Using LoopBack 4
+# Assignment 12 – Auto-Generated API Using LoopBack 4
 
 This repository contains my implementation of **Quiz 14 – Automatic API Generator**.
 For this assignment, I used **LoopBack 4** to automatically generate a fully functional REST API, including models, datasources, repositories, and controllers.
@@ -8,7 +8,7 @@ The final API exposes CRUD endpoints for a `Book` model and includes an interact
 
 ---
 
-## 🚀 Overview
+## Overview
 
 LoopBack 4 is a Node.js framework that provides powerful CLI tools capable of generating complete APIs with minimal manual coding.
 This project demonstrates:
@@ -22,7 +22,7 @@ This project demonstrates:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 * **LoopBack 4 CLI** – automatic scaffolding
 * **Node.js + npm** – runtime & package management
@@ -31,7 +31,7 @@ This project demonstrates:
 
 ---
 
-## 📦 Project Structure (Auto-Generated)
+## Project Structure (Auto-Generated)
 
 | Component      | Description                                       |
 | -------------- | ------------------------------------------------- |
@@ -43,7 +43,7 @@ This project demonstrates:
 
 ---
 
-## 📚 Book Model Definition
+## Book Model Definition
 
 The auto-generated model includes:
 
@@ -54,21 +54,21 @@ The auto-generated model includes:
 
 ---
 
-## 🔧 Steps I Followed 
+## Steps I Followed 
 
-### 1️⃣ Install LoopBack CLI
+### 1️ Install LoopBack CLI
 
 ```bash
 npm install -g @loopback/cli
 ```
 
-### 2️⃣ Create the LoopBack Application
+### 2️ Create the LoopBack Application
 
 ```bash
 lb4 app
 ```
 
-### 3️⃣ Generate the Model
+### 3️ Generate the Model
 
 ```bash
 lb4 model
@@ -76,25 +76,25 @@ lb4 model
 
 Defined fields: `id`, `title`, `author`, `year`.
 
-### 4️⃣ Create an In-Memory Datasource
+### 4️ Create an In-Memory Datasource
 
 ```bash
 lb4 datasource
 ```
 
-### 5️⃣ Generate the Repository
+### 5️ Generate the Repository
 
 ```bash
 lb4 repository
 ```
 
-### 6️⃣ Generate the REST CRUD Controller
+### 6️ Generate the REST CRUD Controller
 
 ```bash
 lb4 controller
 ```
 
-### 7️⃣ Start the API Server
+### 7️ Start the API Server
 
 ```bash
 npm install
@@ -109,7 +109,7 @@ http://localhost:3000/explorer
 
 ---
 
-## 🌐 How to Run This Project
+## How to Run This Project
 
 Clone the repository:
 
@@ -138,7 +138,7 @@ http://localhost:3000/explorer
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![Server Running](screenshots/server-running.png)
 
@@ -147,7 +147,7 @@ http://localhost:3000/explorer
 
 ---
 
-## 🧪 Tests
+## Tests
 
 Run tests with:
 
@@ -157,7 +157,7 @@ npm test
 
 ---
 
-## 🔧 Additional LoopBack Commands
+## Additional LoopBack Commands
 
 ```bash
 npm run build          # Build the project
@@ -171,13 +171,10 @@ npm run migrate        # Migrate database schemas
 
 ---
 
-## 📘 Learn More
+## Learn More
 
 To continue exploring LoopBack 4, see the official docs:
 [https://loopback.io/doc/en/lb4/](https://loopback.io/doc/en/lb4/)
 
 ---
 
-
-
-Just tell me!
