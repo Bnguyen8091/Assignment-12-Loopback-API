@@ -55,6 +55,7 @@ author (required string)
 year (optional number)
 
 🔧 Steps I Followed (Assignment Requirements)
+
 1️⃣ Install LoopBack CLI
 npm install -g @loopback/cli
 
