@@ -1,2 +1,121 @@
-# Assignment-12-Loopback-API
-This project demonstrates using LoopBack’s CLI tools to generate a full CRUD API, including models, datasources, repositories, and controllers. The API exposes CRUD endpoints for a Book model and includes an interactive Swagger UI Explorer.
+📘 Assignment 12 - Auto-Generated API Using LoopBack 4
+
+This repository contains my implementation for Quiz 14 – Automatic API Generator.
+For this assignment, I used LoopBack 4 to automatically generate a fully functional REST API, including models, datasources, repositories, and controllers. The final API exposes CRUD endpoints for a Book model and includes an interactive Swagger-style API Explorer.
+
+🚀 Overview
+
+LoopBack 4 is a Node.js framework that provides powerful CLI tools capable of generating entire APIs with minimal manual coding.
+Using the LoopBack generator, this project demonstrates:
+
+Automatic API scaffolding
+
+Model and schema generation
+
+Repository creation for CRUD operations
+
+Controller generation for RESTful endpoints
+
+In-memory datasource configuration
+
+Testing the API in the built-in /explorer UI
+
+This project fulfills the Quiz 14 requirement to use any automatic API generator and push the generated code to a GitHub repository.
+
+🛠️ Tools Used
+
+LoopBack 4 CLI — auto-generates APIs
+
+Node.js + npm — runtime and package manager
+
+TypeScript — LoopBack’s default language
+
+Swagger UI Explorer — auto-generated documentation for API testing
+
+📦 Project Structure (Auto-Generated)
+
+LoopBack generated the following components:
+
+Component	Description
+Model	Book model with id, title, author, year
+Datasource	In-memory datasource (db.datasource.ts)
+Repository	CRUD repository (BookRepository)
+Controller	REST controller exposing API endpoints
+Explorer	UI for interacting with the API
+📚 Book Model Definition
+
+The model includes:
+
+id (auto-generated string ID)
+
+title (required string)
+
+author (required string)
+
+year (optional number)
+
+🔧 Steps I Followed (Assignment Requirements)
+1️⃣ Install LoopBack CLI
+npm install -g @loopback/cli
+
+2️⃣ Create the LoopBack Application
+lb4 app
+
+
+Configured project name, settings, and scaffolding.
+
+3️⃣ Generate the Model
+lb4 model
+
+
+Created the Book model and later added an auto-generated id property.
+
+4️⃣ Create a Datasource
+lb4 datasource
+
+
+Selected the In-memory DB connector.
+
+5️⃣ Create the Repository
+lb4 repository
+
+
+Connected the Book model to the datasource using a CRUD repository.
+
+6️⃣ Generate the REST CRUD Controller
+lb4 controller
+
+
+Automatically generated all REST endpoints for the Book model.
+
+7️⃣ Start the API Server
+npm install
+npm start
+
+🌐 How to Run This Project
+
+Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/quiz14-loopback-api.git
+cd quiz14-loopback-api
+
+
+Install dependencies:
+
+npm install
+
+
+Start the server:
+
+npm start
+
+
+Then open the API Explorer in your browser:
+
+http://localhost:3000/explorer
+
+📸 Screenshots
+API Explorer – Auto-Generated Endpoints
+
+
+
