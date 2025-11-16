@@ -3,6 +3,7 @@
 This repository contains my implementation for Quiz 14 – Automatic API Generator.
 For this assignment, I used LoopBack 4 to automatically generate a fully functional REST API, including models, datasources, repositories, and controllers. The final API exposes CRUD endpoints for a Book model and includes an interactive Swagger-style API Explorer.
 
+
 🚀 Overview
 
 LoopBack 4 is a Node.js framework that provides powerful CLI tools capable of generating entire APIs with minimal manual coding.
@@ -20,7 +21,6 @@ In-memory datasource configuration
 
 Testing the API in the built-in /explorer UI
 
-This project fulfills the Quiz 14 requirement to use any automatic API generator and push the generated code to a GitHub repository.
 
 
 
