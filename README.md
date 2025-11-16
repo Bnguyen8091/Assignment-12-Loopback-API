@@ -62,40 +62,40 @@ year (optional number)
 
 🔧 Steps I Followed 
 
-1️⃣ Install LoopBack CLI
+1️. Install LoopBack CLI
 npm install -g @loopback/cli
 
-2️⃣ Create the LoopBack Application
+2️. Create the LoopBack Application
 lb4 app
 
 
 Configured project name, settings, and scaffolding.
 
-3️⃣ Generate the Model
+3️. Generate the Model
 lb4 model
 
 
 Created the Book model and later added an auto-generated id property.
 
-4️⃣ Create a Datasource
+4️. Create a Datasource
 lb4 datasource
 
 
 Selected the In-memory DB connector.
 
-5️⃣ Create the Repository
+5️. Create the Repository
 lb4 repository
 
 
 Connected the Book model to the datasource using a CRUD repository.
 
-6️⃣ Generate the REST CRUD Controller
+6️. Generate the REST CRUD Controller
 lb4 controller
 
 
 Automatically generated all REST endpoints for the Book model.
 
-7️⃣ Start the API Server
+7️. Start the API Server
 npm install
 npm start
 
