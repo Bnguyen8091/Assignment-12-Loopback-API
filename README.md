@@ -54,7 +54,7 @@ The auto-generated model includes:
 
 ---
 
-## 🔧 Steps I Followed (Assignment Requirements)
+## 🔧 Steps I Followed 
 
 ### 1️⃣ Install LoopBack CLI
 
@@ -145,8 +145,6 @@ Add screenshots like this:
 ```md
 ![API Explorer](screenshots/explorer.png)
 ```
-
-(Be sure to upload screenshots into a `screenshots/` folder.)
 
 ---
 
