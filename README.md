@@ -140,9 +140,6 @@ http://localhost:3000/explorer
 
 ## 📸 Screenshots
 
-Add screenshots like this:
-
-
 ![API Explorer](screenshots/explorer.png)
 
 
