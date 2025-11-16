@@ -140,6 +140,8 @@ http://localhost:3000/explorer
 
 ## 📸 Screenshots
 
+![Server Running](screenshots/server-running.png)
+
 ![API Explorer](screenshots/explorer.png)
 
 
